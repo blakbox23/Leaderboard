@@ -6,11 +6,12 @@
 body {
   padding: 4rem 6rem;
   font-family: 'Poppins', sans-serif;
-
 }
+
 ul {
   border: 1px solid black;
 }
+
 header {
   padding: 10px;
 }
@@ -20,7 +21,8 @@ header {
   justify-content: space-between;
 }
 
-#scores-div, #scores-form {
+#scores-div,
+#scores-form {
   width: 50%;
 }
 
@@ -29,7 +31,6 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 10px;
-
 }
 
 #refresh-btn {
@@ -41,6 +42,7 @@ li {
   height: 20px;
   padding: 6px 5px;
 }
+
 li:nth-child(odd) {
   background: rgb(199, 225, 255);
 }
@@ -52,8 +54,8 @@ li:nth-child(odd) {
 #scores-form h2 {
   text-align: center;
   padding: 10px;
-
 }
+
 form {
   margin: auto;
   text-align: center;
