@@ -1,5 +1,10 @@
 # Leaderboard
-This project utilises the leaderboard api to store player scores. It also uses webpack to bundler JavaScript modules.
+This project utilises the [leaderboard](https://www.notion.so/Leaderboard-API-service-24c0c3c116974ac49488d4eb0267ade3) API to store and retrieve player scores. 
+
+A user can POST data by submitting their name and score on the app. They can then retrieve the stored data by hiting the refresh button which uses the GET method to get data through the API.
+This project also uses webpack to bundlE JavaScript modules.
+
+![screenshot](assets/Screenshot.png)
 
 ## Built with
 - HTML
