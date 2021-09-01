@@ -4,7 +4,7 @@ This project utilises the [leaderboard](https://www.notion.so/Leaderboard-API-se
 A user can POST data by submitting their name and score on the app. They can then retrieve the stored data by hiting the refresh button which uses the GET method to get data through the API.
 This project also uses webpack to bundlE JavaScript modules.
 
-![screenshot](assets/screenshot.png)
+![screenshot](assets/Screenshot.png)
 
 ## Built with
 - HTML
