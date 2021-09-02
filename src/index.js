@@ -15,6 +15,10 @@ form.addEventListener('submit', (e) => {
   score.value = '';
 });
 
+window.addEventListener('load', async () => {
+  uilist(await getFromApi());
+});
+
 refreshBtn.addEventListener('click', async () => {
   uilist(await getFromApi());
 });
