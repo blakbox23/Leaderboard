@@ -4,16 +4,23 @@
 }
 
 body {
-  padding: 4rem 6rem;
+  padding: 2rem 6rem;
   font-family: 'Poppins', sans-serif;
 }
 
 ul {
   border: 1px solid black;
+  margin-top: 10px;
 }
 
 header {
   padding: 10px;
+  color: green;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
 }
 
 #main-sec {
@@ -35,16 +42,51 @@ header {
 
 #refresh-btn {
   height: 2rem;
+  border: 0.5px solid green;
+  padding: 2px 5px;
+  font-size: 1rem;
+  color: white;
+  background-color: rgb(58, 177, 58);
+  cursor: pointer;
+  box-shadow: 1px 5px 5px green;
+}
+
+#submit-btn {
+  border: 0.5px solid green;
+  padding: 2px 5px;
+  color: white;
+  background-color: rgb(58, 177, 58);
+  cursor: pointer;
+  box-shadow: 1px 5px 5px green;
+  height: 2rem;
+  width: 5rem;
+  font-size: 1rem;
+}
+
+#refresh-btn:active,
+#submit-btn:active {
+  transform: scale(0.95);
+  box-shadow: none;
+}
+
+#refresh-btn:hover i {
+  transform: rotate(90deg);
+  transition: all 0.4s ease-in-out;
 }
 
 li {
   list-style: none;
   height: 20px;
   padding: 6px 5px;
+  display: flex;
 }
 
 li:nth-child(odd) {
-  background: rgb(199, 225, 255);
+  background: rgb(159, 214, 159);
+}
+
+#name-span {
+  width: 7rem;
 }
 
 #scores-form {
@@ -64,5 +106,29 @@ form {
 form input {
   margin: 0.5rem;
   width: 10rem;
-  height: 1.3rem;
+  height: 1.5rem;
+  padding: 5px;
+  border: none;
+  border-bottom: 1.5px solid rgb(111, 212, 53);
+  outline: none;
+  font-size: 1rem;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  background-color: green;
+  height: 46px;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  color: white;
+  justify-content: space-around;
+}
+
+footer p:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+  transition: all 0.4s ease;
 }
