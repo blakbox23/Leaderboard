@@ -1,5 +1,5 @@
 {
-  "name": "webpack_boilerplate",
+  "name": "leaderboard",
   "version": "1.0.0",
   "description": "",
   "private": true,
@@ -10,15 +10,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/blakbox23/webpack_boilerplate.git"
+    "url": "git+https://github.com/blakbox23/Leaderboard.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/blakbox23/webpack_boilerplate/issues"
+    "url": "https://github.com/blakbox23/Leaderboard/issues"
   },
-  "homepage": "https://github.com/blakbox23/webpack_boilerplate#readme",
+  "homepage": "https://github.com/blakbox23/Leaderboard/dist",
   "devDependencies": {
     "babel-eslint": "^10.1.0",
     "css-loader": "^6.2.0",
