@@ -11,6 +11,9 @@ body {
 ul {
   border: 1px solid black;
   margin-top: 10px;
+  height: 18rem;
+  overflow-y: scroll;
+  
 }
 
 header {
