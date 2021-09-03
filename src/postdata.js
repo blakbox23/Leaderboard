@@ -1,5 +1,5 @@
 const postData = (user, score) => {
-  fetch('https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/QF2juezRIUxvtbobb8bW/scores/', {
+  fetch('https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/gZZuTOVqsHQjFA1S1Avv/scores/', {
     method: 'POST',
     body: JSON.stringify({
       user,

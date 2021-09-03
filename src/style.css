@@ -11,7 +11,7 @@ body {
 ul {
   border: 1px solid black;
   margin-top: 10px;
-  height: 18rem;
+  max-height: 18rem;
   overflow-y: scroll;
   
 }
@@ -108,13 +108,19 @@ form {
 
 form input {
   margin: 0.5rem;
-  width: 10rem;
+  width: 16rem;
   height: 1.5rem;
   padding: 5px;
   border: none;
   border-bottom: 1.5px solid rgb(111, 212, 53);
   outline: none;
   font-size: 1rem;
+}
+
+.formInst {
+  font-size: 0.9rem;
+  font-style: italic;
+  color:rgb(111, 212, 53);
 }
 
 footer {

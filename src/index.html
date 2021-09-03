@@ -26,8 +26,10 @@
     <div id="scores-form">
         <h2>Add your score</h2>
         <form id='score-form'>
-            <input type="text" id="name" maxlength="13" placeholder="Your name"><br>
-            <input type="text" id="score" placeholder="Your score"><br>
+            <p class='formInst'>*Name should have a max length of 13 chars</p>
+            <input type="text" id="name" maxlength="13" placeholder="Your name"><br><br>
+            <p class='formInst'>*Your scores should be a number</p>
+            <input type="number" id="score"  placeholder="Your score"><br>
             <input type="submit" value="Submit" id="submit-btn"><br>
         </form>
     </div>
