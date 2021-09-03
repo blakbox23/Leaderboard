@@ -18,7 +18,7 @@
   "bugs": {
     "url": "https://github.com/blakbox23/Leaderboard/issues"
   },
-  "homepage": "https://github.com/blakbox23/Leaderboard/dist",
+  "homepage": "https://github.com/blakbox23/Leaderboard/dist/",
   "devDependencies": {
     "babel-eslint": "^10.1.0",
     "css-loader": "^6.2.0",
