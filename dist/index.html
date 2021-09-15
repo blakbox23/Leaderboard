@@ -1,1 +1,44 @@
-<!doctype html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Leaderboard</title><script defer="defer" src="main.js"></script></head><body></body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/6abfc73bc9.js" crossorigin="anonymous"></script>
+    <title>Leaderboard</title>
+<script defer src="main.js"></script></head>
+<body>
+    <header>
+        <h1>Leaderboard</h1>
+    </header>
+    <section id="main-sec">
+    <div id = 'scores-div'>  
+      <div id="scores-div-header">
+          <h2>Recent scores</h2>
+          <button id="refresh-btn"><i class="fas fa-sync-alt"></i> Refresh</button>
+      </div>
+      <div id="scores-table">
+          <ul id='list-section'>
+            
+          </ul>
+      </div>
+    </div>
+
+    <div id="scores-form">
+        <h2>Add your score</h2>
+        <form id='score-form'>
+            <p class='formInst'>*Name should have a max length of 13 chars</p>
+            <input type="text" id="name" maxlength="13" placeholder="Your name"><br><br>
+            <p class='formInst'>*Your scores should be a number</p>
+            <input type="number" id="score"  placeholder="Your score"><br>
+            <input type="submit" value="Submit" id="submit-btn"><br>
+        </form>
+    </div>
+
+</section>
+<footer>
+    <p><a href="https://github.com/blakbox23" target="blank"> <i class="fab fa-github"></i>  blakbox23 </a></p>
+    <p><a href="https://www.linkedin.com/in/peter-mbuthia/" target="blank"> <i class="fab fa-linkedin"></i> Peter Mbuthia </a></p>
+    <p><a href="https://www.notion.so/microverse/Leaderboard-API-service-24c0c3c116974ac49488d4eb0267ade3" target="blank"><i class="fas fa-book"></i> Leaderboad API </a></p>
+</footer>
+</body>
+</html>
