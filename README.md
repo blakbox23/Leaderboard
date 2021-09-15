@@ -15,6 +15,9 @@ This project also uses webpack to bundlE JavaScript modules.
  -  Node.js
  -  NPM
 
+## Demo
+ [Live link](https://blakbox23.github.io/Leaderboard/dist/)
+
 ## Setup
 
 Clone the repository with:
